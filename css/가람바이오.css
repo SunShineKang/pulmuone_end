@@ -1,0 +1,748 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'Pretendard-Regular';
+    src: url('https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Chosunilbo_myungjo';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/Chosunilbo_myungjo.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Chosunilbo_myungjo';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/Chosunilbo_myungjo.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'MaruBuri';
+    src: url(https://hangeul.pstatic.net/hangeul_static/webfont/MaruBuri/MaruBuri-Regular.eot);
+    src: url(https://hangeul.pstatic.net/hangeul_static/webfont/MaruBuri/MaruBuri-Regular.eot?#iefix) format("embedded-opentype"), url(https://hangeul.pstatic.net/hangeul_static/webfont/MaruBuri/MaruBuri-Regular.woff2) format("woff2"), url(https://hangeul.pstatic.net/hangeul_static/webfont/MaruBuri/MaruBuri-Regular.woff) format("woff"), url(https://hangeul.pstatic.net/hangeul_static/webfont/MaruBuri/MaruBuri-Regular.ttf) format("truetype");
+}
+@font-face {
+    font-family: 'ONE-Mobile-POP';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2105_2@1.0/ONE-Mobile-POP.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Ownglyph_ryuttung-Rg';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/2405-2@1.0/Ownglyph_ryuttung-Rg.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'GongGothicMedium';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_20-10@1.0/GongGothicMedium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Chosunilbo_myungjo';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/Chosunilbo_myungjo.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'ONE-Mobile-POP';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2105_2@1.0/ONE-Mobile-POP.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+body {
+    line-height: 1;
+    color: #333;
+    
+    font-family: 'Pretendard-Regular';
+}
+html {
+    font-size: 62.5%;
+}
+.section01 {
+    max-width: 1920px;
+    width: calc(100% - 0);
+    margin: 0 auto;
+    position: relative;
+}
+.section01 .swiper .swiper-wrapper .swiper-slide video{
+    width: 100%;
+    height: 46.87vw;
+    object-fit: cover;
+    z-index: 0;
+    
+
+}
+.section01 .swiper .swiper-pagination {
+    margin-left: 75%;
+    margin-bottom: 4.16%;
+    font-size: 1.6rem;
+}
+
+.section01 .swiper .swiper-wrapper .swiper-slide video img {
+    
+   
+}
+.swiper-horizontal>.swiper-pagination-bullets {
+    
+    display: flex;
+}
+
+.swiper-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet, .swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet {
+    width: 3.5rem;
+    height: 2rem;
+    text-align: center;
+    margin: 0 0.5%;
+    border-radius: 1rem;
+    border: 1px solid #fff;
+    line-height: 2rem;
+    color: #fff;
+    
+}
+
+
+
+.section01 .header {
+    
+}
+
+.section01 .header .inner {
+    max-width: 1920px;
+    width: calc(100% - 10rem);
+    
+    margin: 0 auto;
+}
+.section01 .header .inner01 {
+    height: 4.16vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.section01 .header .inner01 .logo {
+    width: 6.59%;
+    height: 2.19vw;
+}
+.section01 .header .inner01 .logo img {
+    width: 100%;
+    height: 100%;
+}
+.section01 .header .inner01 .nav {
+}
+.section01 .header .inner01 .nav ul {
+    display: flex;
+    align-items: center;
+    
+} 
+.section01 .header .inner01 .nav ul li {
+
+    padding: 0 4rem;
+    font-size: 1.6rem;
+}
+.section01 .header .inner01 .icon {
+    display: flex;
+    align-items: center;
+    gap: 2.5rem;
+}
+.section01 .header .inner01 .icon figure {
+    width: 2.4rem;
+    height: 2.4rem;
+    
+    
+}
+
+.section01 .header .inner01 .icon figure img {
+    width: 100%;
+    height: 100%;
+}
+
+.section01 .header .inner02 {
+    
+    margin: 0 auto;
+    height: 6.25%;
+    display: none;
+    
+}
+.section01 .header .inner02 .box {
+
+    display: flex;
+    
+}
+.section01 .header .inner02 .box .item {
+    width: 19.66%;
+    
+    
+    
+}
+.section01 .header .inner02 .box .item ul {
+    
+}
+.section01 .header .inner02 .box .item ul li {
+    font-size: 1.4rem;
+    line-height: 1.8;
+    padding: 0 4rem;
+    text-align: center;
+}
+.section01 .header .inner02 .box .item ul li:nth-child(1) {
+    font-size: 2rem;
+    margin: 2rem auto;
+    
+}
+.section01 .header:hover .inner02 {
+    display: block;
+
+}
+.section01 .header:hover .inner01 {
+    border-bottom: 1px solid#fff;
+}
+
+
+.section01 video img {
+    object-fit: cover;
+}
+.section01 .wrap {
+    
+    width: 45%;
+    height: 10.41vw;
+    margin: 0 auto;
+    position: absolute;
+    bottom: 15%;
+    left: 26%;
+    display: flex;
+    gap: 2%;
+    z-index: 1;
+}
+.section01 .wrap figure {
+    width: 100%;
+    height: 100%;
+}
+.section01 .wrap figure img {
+    width: 100%;
+    height: 100%;
+    
+}
+.section01 .bar {
+    position: absolute;
+    top: 50%;
+    right: 5px;
+
+    transform: translateY(-50%);
+   
+    z-index: 99999999999999999999999999999;
+}
+.section01 .bar ul {
+    
+}
+.section01 .bar ul li {
+    
+    width: 1rem;
+    height: 1rem;
+    border-radius: 50%;
+    background-color: #FFF;
+    margin: 1.5rem 1rem;
+}
+.section01 .bar ul li:hover  {
+    background-color: #ff0000;
+}
+.section02{
+    height: 57vw;
+    
+}
+.section02 .inner {
+    max-width: 1920px;
+    width: calc(100% - 5%);
+
+    margin: 0 auto;
+    
+}
+
+.section02 .inner .text {
+    width: 100%;
+    height: 50%;
+    
+    text-align: center;
+    padding: 7% 13% 7%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.section02 .inner .text img {
+    width: 20%;
+    height: 13vw;
+    object-fit: cover;
+    border-radius: 50%;
+    box-shadow: 1rem 1rem 1rem rgba(0, 0, 0, 0.349);
+}
+.section02 .inner .text h2 {
+    font-size: 6rem;
+    padding: 0 3rem;
+    
+    font-family: 'ONE-Mobile-POP';
+}
+
+.section02 .inner .swiper {
+    overflow: hidden;
+    border-radius: 2rem;
+    box-shadow: 1rem 1rem rgba(100, 50, 25, 0.3);
+}
+.section02 .inner .swiper-slide  {
+    width: 100%;
+    height: 28vw;
+    
+   
+    
+
+}
+.section02 .inner .swiper-slide figure {
+    width: 100%;
+    height: 100%;
+    
+    
+}
+.section02 .inner .swiper-slide img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    margin-bottom: 3%;
+    box-shadow: 5px 5px rgba(0, 50, 25, 0.5);
+}
+
+
+.section03 {
+    max-width: 1920px;
+    width: calc(100% - 20px);
+    position: relative;
+    
+}
+.section03 .swiper {
+    width: 40.36%;
+    position: absolute;
+    top: 50%;
+    left: 15.62%;
+    transform: translateY(-50%);
+    
+}
+.section03 .swiper {
+    box-shadow: 2rem 2rem 2rem  rgba(0, 0, 0, 0.349);
+    border: 2px solid rgba(245, 241, 241, 0.993);
+}
+.section03 .swiper .swiper-wrapper .swiper-slide {
+    width: 100%;
+    height: 26vw;
+}
+.section03 .swiper .swiper-wrapper .swiper-slide img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.section03 .box {
+    width: 100%;
+    height: 52vw;
+    display: flex;
+    border-top: 1px  solid #333;
+    border-bottom: 1px  solid #333;
+}
+.section03 .box .item01 {
+    width: 50%;
+    height: 100%;
+
+}
+.section03 .box .item01 figure {
+    width: 100%;
+    height: 100%;
+
+}
+.section03 .box .item01 figure img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+}
+.section03 .box .item02 {
+    width: 40%;
+    height: 52vw;
+    margin: 8% 0 0 10%;
+    
+}
+.section03 .box .item02 .nav ul {
+    display: flex;
+    align-items: center;
+    gap: 2%;
+    margin-bottom: 5%;
+}
+.section03 .box .item02 .nav ul li {
+    font-family: 'Chosunilbo_myungjo';
+    font-size: 2rem;
+}
+.section03 .box .item02 h1 {
+    font-size: 8rem;
+    margin-left: 11.45%;
+    white-space: nowrap;
+    /* ...표현 */
+    text-overflow: ellipsis;
+    overflow: hidden;
+    font-family: 'Chosunilbo_myungjo';
+    font-weight: 100;
+} 
+.section03 .box .item02 h3 {
+    font-size: 4.8rem;
+    margin: 10% 0;
+    white-space: nowrap;
+    /* ...표현 */
+    text-overflow: ellipsis;
+    overflow: hidden;
+    font-weight: 100;
+    font-family: 'Chosunilbo_myungjo';
+    line-height: 1.2;
+}
+.section03 .box .item02 p {
+    font-size: 1.6rem;
+    line-height: 1.2;
+    white-space: nowrap;
+    /* ...표현 */
+    text-overflow: ellipsis;
+    overflow: hidden;
+    font-family: 'Chosunilbo_myungjo';
+    line-height: 1.5;
+}
+.section05 {
+    
+    
+    
+    padding: 11% 15%;
+    
+    background-color: #999;
+}
+
+.section05 .wrap {
+    display: flex;
+
+}
+.section05 .wrap .image {
+    width: 44%;
+    height: 26vw;
+}
+.section05 .wrap .image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    box-shadow: 2rem 2rem 2rem  rgba(0, 0, 0, 0.349);
+}
+
+.section05 .wrap .text {
+    padding: 6% 0 0 5%;
+}
+.section05 .wrap .text h1 {
+    font-size: 5rem;
+    margin-bottom: 4%;
+    line-height: 1.2;
+    font-family: 'Chosunilbo_myungjo';
+}
+.section05 .wrap .text p {
+    font-size: 2.3rem;
+    line-height: 1.5;
+    font-family: 'Chosunilbo_myungjo';
+}
+
+
+
+.section04 {
+    max-width: 1920px;
+    width: calc(100% - 0);
+    margin: 0 auto;
+    
+}
+.section04 h1 {
+    font-size: 8.6rem;
+    padding: 7% 0 2.6% 0;
+    text-align: center;
+    font-family: 'MaruBuri';
+    
+}
+
+.section04 .sns {
+    
+    
+    border: 1px solid #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.6%;
+    margin: 0 26%;
+    border-radius: 3rem;
+}
+.section04 .sns .item {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    box-shadow: 2px rgba(0, 0, 0, 0.5);
+    padding: 0.5rem;
+}
+.section04 .sns .item img {
+    width: 2.2rem;
+    height: 2.2rem;
+}
+.section04 .sns .item span {
+    padding: 0 1rem;
+}
+.section04 .sns .item strong {
+    font-size: 1.6rem;
+    
+        font-family: 'Ownglyph_ryuttung-Rg';
+        
+    }
+
+.section04 .wrap {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    row-gap: 1.5rem;
+    padding: 5% 20%;
+    
+}
+    
+.section04 .wrap figure {
+    width: 19%;
+    height: 13vw;
+    border-radius: 10%;
+    
+    overflow: hidden;
+    
+    
+}
+.section04 .wrap figure img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+    
+}
+
+.footer {
+    max-width: 1920px;
+    width: calc(100% - 0rem);
+    margin: 0 auto;
+    text-align: center;
+    
+   
+}
+.footer strong {
+    font-size: 1.6rem;
+    
+}
+.footer figure {
+    width: 8.4rem;
+    height: 3.5rem;
+    margin: 3rem auto;
+}
+.footer figure img {
+    width: 100%;
+    height: 100%;
+}
+
+.footer .text01 ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer .text01 ul li {
+    font-size: 2rem;
+    margin-bottom: 1.56%;
+    
+}
+.footer .text01 ul span {
+    margin: 0 2rem;
+
+}
+
+.footer .text02 ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer .text02 ul {
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.footer .text02 ul span {
+    margin: 0 1rem;
+}
+.footer .sns_wrap {
+    
+    
+    
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10rem;
+    
+    
+    
+}
+.footer .sns_wrap .sns1 {
+    
+    
+    display: flex;
+    align-items: center;
+    
+}
+.footer .sns_wrap .sns1 .sns_icon {
+    width: 2.3rem;
+    height: 2.3rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-left: 1.5rem;
+    
+}
+
+.footer .sns_wrap .sns1 .sns_icon img {
+    width: 100%;
+    height: 100%;
+    
+}
+.footer .sns_wrap .sns1 p {
+    font-size: 1.6rem;
+    margin-right: 1.6rem;
+}
+.footer .sns_wrap .sns2 {
+    
+}
+.footer .sns_wrap .sns2  {
+    width: 15rem;
+    height: 2.2vw;
+    border: 2px solid #999;
+    margin-left: 5.2%;
+   
+} 
+.footer .sns_wrap .sns2 p {
+    display: block;
+    font-size: 1rem;
+    line-height: 2vw;
+    text-align: center;
+    
+}
+
+.footer .sns_wrap .sns3 {
+   
+}
+.footer .sns_wrap .sns3 figure {
+    width: 8rem;
+    height: 7.4rem;
+    
+}
+.footer .sns_wrap .sns3 figure img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:1400px) {
+    html {
+        font-size: 46%;
+    }
+    .section02 .inner .text h2 {
+        font-size: 3.7rem;
+    }
+}
+
+@media screen and (max-width:960px){
+    html {
+        font-size: 28%;
+    }
+    
+    }
+ /* 960px end */
+@media screen and (max-width:730px) {
+    .section01 .header .inner01 .icon figure {
+        
+    }
+
+    html{
+        
+    }
+
+}
+@media screen and (max-width:500px) {
+    html {
+        font-size: 20%;
+    }
+    .footer .sns_wrap .sns2 {
+        
+    }
+}
+@media screen and (max-width:363px) {
+    
+    .footer .sns_wrap .sns2 p {
+        line-height: 1.2vw;
+    }
+    .section01 .header .inner01 .nav ul li {
+      padding: 0 10px;
+        
+    }
+    html {
+        font-size: 15%;
+    }
+}
+
+@media screen and (max-width:260px) {
+
+
+
+    
+        .section01 .header .inner01 .nav ul li {
+            font-size: 3px;
+            line-height: 10px;
+        }
+    
+        
+    
+}
+
+
+
+
+
+
+
+
+
+
+
